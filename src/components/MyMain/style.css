@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+}
+
+.main div{
+    padding: 30px;
+}
+
+.main .sideBar{
+    background-color: #f4c24a;
+    flex: 25%;
+}
+
+.main .content{
+    background-color: #aff2b4;
+    flex: 75%;
+}
+
+.main .content p{
+    width: 80%;
+}
